@@ -1,6 +1,6 @@
 const index = (req, res) => {
 
-    res.send ('Hello')
+    res.send('Hello')
 }
 
-module.exports = {index}
+module.exports = { index }

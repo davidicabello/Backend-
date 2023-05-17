@@ -3,31 +3,31 @@ const { Schema } = mongoose;
 
 const farmaciaSchema = new Schema({
 
-    remedio: { 
-        type: String, 
+    remedio: {
+        type: String,
         required: true
-     },
-    descripcion: { 
-        type: String, 
-        required: true 
     },
-    precio: { 
-        type: Number, 
-        required: true 
+    descripcion: {
+        type: String,
+        required: true
     },
-    stock: { 
-        type: Number, 
-        required: true 
+    precio: {
+        type: Number,
+        required: true
+    },
+    stock: {
+        type: Number,
+        required: true
     },
 
     faltante: {
-        type: Boolean, 
-        required: true 
+        type: Boolean,
+        required: true
     },
-    
+
     img: {
-        type: String, 
-         
+        type: String,
+
     },
 
 
